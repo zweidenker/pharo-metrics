@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MetricVisitor",
+	"category" : "Metrics-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MeasurementMetricVisitor",
+	"type" : "normal"
+}

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Metrics-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"metricValue",
+		"value",
+		"timestamp"
+	],
+	"name" : "MeasurementValue",
+	"type" : "normal"
+}

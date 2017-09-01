@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MetricValue",
+	"category" : "Metrics-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"counter"
+	],
+	"name" : "MetricValueCounter",
+	"type" : "normal"
+}

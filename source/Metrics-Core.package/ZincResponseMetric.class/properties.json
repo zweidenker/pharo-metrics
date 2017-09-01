@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Metric",
+	"category" : "Metrics-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ZincResponseMetric",
+	"type" : "normal"
+}

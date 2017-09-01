@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Metrics-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"excludePrefixes",
+		"requests",
+		"responses",
+		"requestMetric",
+		"responseMetric"
+	],
+	"name" : "ZincMetricSet",
+	"type" : "normal"
+}

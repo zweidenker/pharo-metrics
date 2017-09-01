@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "MeasurementVisitor",
+	"category" : "Metrics-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"stream",
+		"metric",
+		"measurement"
+	],
+	"name" : "PrometheusMeasurementVisitor",
+	"type" : "normal"
+}
