@@ -4,5 +4,5 @@ handleAnnouncementFiltered: anAnnouncement
 	via http it would handle requests to it self otherwise."
 	
 	(self excludePrefixes noneSatisfy: [ :prefix |
-		anAnnouncement request uri pathPrintString beginsWith: prefix ])
+		anAnnouncement url pathPrintString beginsWith: prefix ])
 			ifTrue: [ self handleAnnouncement: anAnnouncement ]  

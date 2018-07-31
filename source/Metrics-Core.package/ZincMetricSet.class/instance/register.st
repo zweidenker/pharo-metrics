@@ -1,5 +1,5 @@
 as yet unclassified
 register
 	ZnLogEvent announcer
-		when: ZnRequestResponseHandledEvent 
+		when: ZnSimplifiedServerTransactionEvent 
 		do: [ :ann | self handleAnnouncementFiltered: ann ]
