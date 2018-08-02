@@ -6,11 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"excludePrefixes",
 		"requests",
 		"responses",
 		"requestMetric",
-		"responseMetric"
+		"responseMetric",
+		"prefixes",
+		"exclusive"
 	],
 	"name" : "ZincMetricSet",
 	"type" : "normal"

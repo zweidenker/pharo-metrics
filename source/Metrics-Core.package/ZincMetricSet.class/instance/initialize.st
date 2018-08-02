@@ -1,6 +1,7 @@
 initialization
 initialize
 	super initialize.
-	excludePrefixes := OrderedCollection new.
+	prefixes := OrderedCollection new.
 	requests := 0.
+	exclusive := true.
 	self register
