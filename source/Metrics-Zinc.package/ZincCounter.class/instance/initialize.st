@@ -5,4 +5,3 @@ initialize
 	requests := 0.
 	responses := Dictionary new.
 	exclusive := true.
-	self register
