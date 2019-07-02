@@ -1,3 +1,3 @@
 visiting
-visit: aMetric 
-	^ aMetric accept: self
+visit: anObject
+	anObject accept: self 

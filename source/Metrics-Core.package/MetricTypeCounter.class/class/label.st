@@ -1,3 +1,3 @@
 accessing
 label
-	^ 'counter'
+	^ #counter

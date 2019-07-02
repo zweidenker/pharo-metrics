@@ -1,3 +1,0 @@
-accessing
-description
-	^ metric description

@@ -1,3 +1,4 @@
 visiting
 visitAll: aCollection 
-	^ aCollection collect: [ :each | self visit: each ]
+	aCollection do: [ :each |
+		self visit: each ]

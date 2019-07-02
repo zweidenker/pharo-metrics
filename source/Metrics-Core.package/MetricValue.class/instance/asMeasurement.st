@@ -1,3 +1,0 @@
-measuring
-asMeasurement
-	self shouldBeImplemented.

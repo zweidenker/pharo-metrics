@@ -1,18 +1,13 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Metrics-Core",
+	"category" : "Metrics-Rest",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name",
-		"description",
-		"type",
-		"attributes",
-		"valueBlock",
-		"group"
+		"zinc"
 	],
-	"name" : "Metric",
+	"name" : "MetricsHandler",
 	"type" : "normal"
 }

@@ -1,4 +1,0 @@
-testing
-hasAttributes
-	
-	^ metricValue hasAttributes 

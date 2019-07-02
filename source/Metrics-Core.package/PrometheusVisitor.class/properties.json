@@ -1,18 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "MetricVisitor",
 	"category" : "Metrics-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name",
-		"description",
-		"type",
-		"attributes",
-		"valueBlock",
-		"group"
+		"stream"
 	],
-	"name" : "Metric",
+	"name" : "PrometheusVisitor",
 	"type" : "normal"
 }

@@ -1,3 +1,0 @@
-accessing
-firstValue
-	self shouldBeImplemented.

@@ -1,3 +1,3 @@
 accessing
-type: anObject
-	type := anObject
+type: aString 
+	type := MetricType withLabel: aString

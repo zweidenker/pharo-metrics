@@ -1,3 +1,0 @@
-accessing
-attributes
-	^ metricValue attributes

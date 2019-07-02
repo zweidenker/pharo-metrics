@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Metrics-Zinc",
+	"classinstvars" : [
+		"instance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"requests",
+		"responses",
+		"prefixes",
+		"exclusive",
+		"registration"
+	],
+	"name" : "ZincCounter",
+	"type" : "normal"
+}
