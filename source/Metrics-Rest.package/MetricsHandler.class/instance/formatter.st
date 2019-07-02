@@ -1,3 +1,3 @@
 accessing
 formatter
-	^ PrometheusVisitor new
+	^ MetricPrometheusVisitor new

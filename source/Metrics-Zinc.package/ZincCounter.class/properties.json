@@ -12,7 +12,8 @@
 		"responses",
 		"prefixes",
 		"exclusive",
-		"registration"
+		"registration",
+		"duration"
 	],
 	"name" : "ZincCounter",
 	"type" : "normal"
