@@ -1,3 +1,3 @@
 visiting
 visit: anObject
-	anObject accept: self 
+	anObject acceptMetrics: self 

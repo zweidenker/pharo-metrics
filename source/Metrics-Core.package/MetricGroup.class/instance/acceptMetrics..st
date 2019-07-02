@@ -1,3 +1,3 @@
 visiting
-accept: aVisitor 
+acceptMetrics: aVisitor 
 	^ aVisitor visitMetricGroup: self
