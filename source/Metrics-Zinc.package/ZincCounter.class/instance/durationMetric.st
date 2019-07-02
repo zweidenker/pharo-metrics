@@ -6,4 +6,4 @@ durationMetric
 		group: #zinc;
 		description: 'Average duration of requests';
 		type: #gauge;
-		valueBlock: [ ZincCounter instance duration asInteger ]
+		valueBlock: [ ZincCounter instance duration ]
