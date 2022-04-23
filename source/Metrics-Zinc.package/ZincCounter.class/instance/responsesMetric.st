@@ -1,9 +1,8 @@
 as yet unclassified
 responsesMetric
-	<metric>
+	<metric: #zinc>
 	^ MetricMap new 
 		name: #httpResponses;
-		group: #zinc;
 		description: 'Number of responses by status';
 		type: #counter;
 		valueBlock: [ ZincCounter instance responses ]

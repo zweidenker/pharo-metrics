@@ -1,5 +1,5 @@
 accessing
 metricNamed: aString 
-	^ metrics
-		detect: [ :each | each name = aString ]
-		ifNone: [  nil ]
+	^ metrics 
+		at: aString
+		ifAbsent: [ nil ]

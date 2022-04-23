@@ -1,4 +1,5 @@
 initialization
 initialize
 	super initialize.
-	stream := WriteStream on: ''
+	stream := WriteStream on: ''.
+	prefixes := OrderedCollection new

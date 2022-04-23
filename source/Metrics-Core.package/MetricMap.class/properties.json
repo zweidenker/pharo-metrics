@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Metric",
+	"super" : "PluggableMetric",
 	"category" : "Metrics-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],

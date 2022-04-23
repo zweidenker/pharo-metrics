@@ -1,3 +1,6 @@
 as yet unclassified
 add: aMetric 
-	metrics add: aMetric 
+	aMetric parent: self.
+	^ metrics 
+		at: aMetric name
+		put: aMetric 

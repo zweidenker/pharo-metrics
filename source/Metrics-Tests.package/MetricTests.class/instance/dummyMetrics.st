@@ -1,19 +1,19 @@
 as yet unclassified
 dummyMetrics
 	^ { 
-		Metric new
+		PluggableMetric new
 			name: #dummyOne;
 			group: #dummyGroup;
 			description: 'one dummy';
 			type: #gauge;
 			valueBlock: [ #one ].
-		Metric new
+		PluggableMetric new
 			name: #dummyTwo;
 			group: #dummyGroup;
 			description: 'two dummy';
 			type: #gauge;
 			valueBlock: [ #two ].
-		Metric new
+		PluggableMetric new
 			name: #dummyThree;
 			group: #dummyGroup2;
 			description: 'three dummy';

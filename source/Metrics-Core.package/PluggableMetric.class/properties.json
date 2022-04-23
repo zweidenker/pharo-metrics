@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Metric",
+	"category" : "Metrics-Core",
+	"classinstvars" : [
+		"all"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"valueBlock"
+	],
+	"name" : "PluggableMetric",
+	"type" : "normal"
+}

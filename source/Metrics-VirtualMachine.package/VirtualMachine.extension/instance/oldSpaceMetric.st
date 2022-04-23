@@ -1,9 +1,8 @@
 *Metrics-VirtualMachine
 oldSpaceMetric
-	<metric>
-	^ Metric new 
+	<metric: #virtualMachine>
+	^ PluggableMetric new 
 		name: #oldSpace;
-		group: #virtualMachine;
 		description: 'The size of old space';
 		type: #gauge;
 		valueBlock: [ Smalltalk vm oldSpace ]

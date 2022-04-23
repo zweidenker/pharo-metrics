@@ -1,15 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "MetricGroup",
 	"category" : "Metrics-Core",
 	"classinstvars" : [
 		"instance"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"all"
-	],
+	"instvars" : [ ],
 	"name" : "Metrics",
 	"type" : "normal"
 }

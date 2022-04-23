@@ -1,0 +1,3 @@
+accessing
+allKeys 
+	^ OrderedCollection new

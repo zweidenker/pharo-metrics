@@ -1,19 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "MetricItem",
 	"category" : "Metrics-Core",
-	"classinstvars" : [
-		"all"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name",
-		"description",
 		"type",
 		"attributes",
-		"valueBlock",
-		"group"
+		"description"
 	],
 	"name" : "Metric",
 	"type" : "normal"

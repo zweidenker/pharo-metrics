@@ -1,9 +1,8 @@
 *Metrics-VirtualMachine
 externalObjectTableSizeMetric
-	<metric>
-	^ Metric new 
+	<metric: #virtualMachine>
+	^ PluggableMetric new 
 		name: #externalObjectTableSize;
-		group: #virtualMachine;
 		description: 'The number of registered external objects';
 		type: #gauge;
 		valueBlock: [ ExternalSemaphoreTable externalObjects size ]

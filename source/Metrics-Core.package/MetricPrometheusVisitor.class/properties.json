@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"stream"
+		"stream",
+		"prefixes"
 	],
 	"name" : "MetricPrometheusVisitor",
 	"type" : "normal"
