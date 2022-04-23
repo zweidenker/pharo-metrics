@@ -1,0 +1,3 @@
+testing
+hasDescription
+	^ description notNil
