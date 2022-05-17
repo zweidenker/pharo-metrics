@@ -6,4 +6,4 @@ visitMetricMap: aMetricMap
 		self 
 			writeName: (self convertMetricName: aMetricMap)
 			value: value 
-			attributes: { #status -> attribute } asDictionary  ]
+			attributes: aMetricMap attributes, ({ #status -> attribute } asDictionary)  ]
