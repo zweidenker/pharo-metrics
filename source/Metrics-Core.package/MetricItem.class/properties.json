@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"parent",
-		"name"
+		"name",
+		"attributes"
 	],
 	"name" : "MetricItem",
 	"type" : "normal"
