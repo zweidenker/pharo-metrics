@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Metrics-Zinc'!
+self packageOrganizer ensurePackage: #'Metrics-Zinc' withTags: #()!
